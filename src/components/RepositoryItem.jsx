@@ -3,7 +3,7 @@ export function RepositoryItem(props) {
     <li>
       <strong>{props.repository?.name ?? "Padrão"}</strong>
       <p>{props.repository?.description}</p>
-      <a href={props.repository?.link}>acessar repositório</a>
+      <a href={props.repository?.html_url}>acessar repositório</a>
     </li>
   );
 }
